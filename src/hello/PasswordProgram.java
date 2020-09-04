@@ -1,7 +1,7 @@
 package hello;
 import java.util.Scanner;
 
-public class MySweetProgram {
+public class PasswordProgram {
 	
 	
 	public static void main(String[] args) {
