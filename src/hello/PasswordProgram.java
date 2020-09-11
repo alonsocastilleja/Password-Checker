@@ -17,7 +17,7 @@ public class PasswordProgram {
 		Scanner scanner = new Scanner(System.in);
 		String guess = scanner.nextLine();
 		
-		// 
+		// Using an if/else statement for both scenarios(correct and wrong password)
 		if(password.equals(guess)) {
 			System.out.println("You entered the correct password. You are logged in.");
 			scanner.close();
@@ -26,7 +26,7 @@ public class PasswordProgram {
 			System.out.println("You entered the wrong password. Please try again!!");			
 		}
 		
-		// Closing the Scanner object in memory
+		// Closing the Scanner object in memory for the program.
 		scanner.close();
 	}
 }
