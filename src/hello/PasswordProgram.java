@@ -20,9 +20,14 @@ public class PasswordProgram {
 		// 
 		if(password.equals(guess)) {
 			System.out.println("You entered the correct password. You are logged in.");
+			scanner.close();
+			return;
 		} else {
 			System.out.println("You entered the wrong password. Please try again!!");			
 		}
+		
+		// Closing the Scanner object in memory
+		scanner.close();
 	}
 }
 
